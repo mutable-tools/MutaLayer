@@ -1,0 +1,32 @@
+{
+  "name": "MutaLayer",
+  "description": "Extracts Adobe® Photoshop® Layer names to a SCSS file ready to start coding",
+  "version": "0.0.1",
+  "main": "bin/mutalayer.js",
+  "bin": {
+    "mutalayer": "bin/mutalayer.js"
+  },
+  "dependencies": {
+    "fs": "0.0.2",
+    "psd": "^3.1.0",
+    "yargs": "^3.18.0"
+  },
+  "homepage": "https://github.com/juanbrujo/MutaLayer",
+  "keywords": [
+    "photoshop",
+    "psd",
+    "scss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanbrujo/MutaLayer"
+  },
+  "scripts": {
+    "test": "-"
+  },
+  "author": "Jorge Epuñan | @csslab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanbrujo/MutaLayer/issues"
+  }
+}
